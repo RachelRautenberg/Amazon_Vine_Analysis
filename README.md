@@ -8,15 +8,15 @@ With the recent success of learning and using AWS, a new assignment was given to
 ## Results
 ###### How many Vine reviews and non-Vine reviews were there?
 To ensure that the analysis being done was helpful, we first filtered out items that had less than 20 total votes. The data was narrowed further by retrieving items where the at least 50% of the votes were considerd helpful. Finally, the remaining data was filtered by paid, then unpaid reviews getting us to the point were some simple counts and analysis could be complete.  Total unpaid reviews: *43,745*     Total paid reviews: *969*
-![total_unpaid]()     ![total_paid]()
+![total_unpaid](https://github.com/RachelRautenberg/Amazon_Vine_Analysis/blob/main/Resources/total_unpaid_reviews.PNG) ![total_paid](https://github.com/RachelRautenberg/Amazon_Vine_Analysis/blob/main/Resources/total_paid_reviews.PNG)
 
 ##### How many Vine reviews were 5 stars? How many non-Vine reviews were 5 stars?
 Total unpaid 5-star reviews: *19,233*       Total paid 5-star reviews: *430*
-![5star_unpaid]()                           ![5star_paid]()
+![5star_unpaid](https://github.com/RachelRautenberg/Amazon_Vine_Analysis/blob/main/Resources/5star_unpaid.PNG)                           ![5star_paid](https://github.com/RachelRautenberg/Amazon_Vine_Analysis/blob/main/Resources/5star_paid.PNG)
 
 ##### What percentage of Vine reviews were 5 stars? What percentage of non-Vine reviews were 5 stars?
 Percentage 5-star vs total unpaid:  *43.97%*     Percentage 5-star vs total paid:  *44.38%*
-![unpaid_percetn]()                   ![paid_percent]()
+![unpaid_percent](https://github.com/RachelRautenberg/Amazon_Vine_Analysis/blob/main/Resources/unpaid_percent.PNG)                   ![paid_percent](https://github.com/RachelRautenberg/Amazon_Vine_Analysis/blob/main/Resources/paid_percent.PNG)
 
 
 ## Summary
@@ -29,5 +29,5 @@ The most critical factor in this analysis is the similarity in percentages of 5-
 
 Additional analysis that I would recommend, one of which was completed, would be:
     - Determine what percentage of total 5-star ratings came out of paid reviews. In this case that percentage is *2.19*; leaving almost a full *98%* of 5-star reviews stemming from unpaid reviewers. 
-    ![5star_comp]()
+    ![5star_comp](https://github.com/RachelRautenberg/Amazon_Vine_Analysis/blob/main/Resources/5star_comp.PNG)
     - It may also be helpful to run similar analysis on 1-star ratings to understand if there is negative bias. This would better level set the understanding for the stability of reviews derived from the Vine program.
