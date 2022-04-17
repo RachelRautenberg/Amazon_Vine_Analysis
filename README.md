@@ -7,6 +7,27 @@ With the recent success of learning and using AWS, a new assignment was given to
 
 ## Results
 ###### How many Vine reviews and non-Vine reviews were there?
-How many Vine reviews were 5 stars? How many non-Vine reviews were 5 stars?
-What percentage of Vine reviews were 5 stars? What percentage of non-Vine reviews were 5 stars?
-Summary: In your summary, state if there is any positivity bias for reviews in the Vine program. Use the results of your analysis to support your statement. Then, provide one additional analysis that you could do with the dataset to support your statement.
+To ensure that the analysis being done was helpful, we first filtered out items that had less than 20 total votes. The data was narrowed further by retrieving items where the at least 50% of the votes were considerd helpful. Finally, the remaining data was filtered by paid, then unpaid reviews getting us to the point were some simple counts and analysis could be complete.  Total unpaid reviews: *43,745*     Total paid reviews: *969*
+![total_unpaid]()     ![total_paid]()
+
+##### How many Vine reviews were 5 stars? How many non-Vine reviews were 5 stars?
+Total unpaid 5-star reviews: *19,233*       Total paid 5-star reviews: *430*
+![5star_unpaid]()                           ![5star_paid]()
+
+##### What percentage of Vine reviews were 5 stars? What percentage of non-Vine reviews were 5 stars?
+Percentage 5-star vs total unpaid:  *43.97%*     Percentage 5-star vs total paid:  *44.38%*
+![unpaid_percetn]()                   ![paid_percent]()
+
+
+## Summary
+When working with the office products reviews, the data would suggest that there is not a positivity bias for reviews in the Vine program. Several things would suggest this:
+    - The total number of reviews coming from the paid program is very small (969) compared to the total of unpaid (43,745).
+    - The total number of 5-star reviews is also small.
+    - The percentage of 5-star vs total reviews in both programs is very close, suggesting that the reviews are of similar proportion in both paid and unpaid.
+
+The most critical factor in this analysis is the similarity in percentages of 5-star vs total reviews.  One would expect based on the similar percenatages in the two groups, if the incoming data remains stable to this model, an increase in paid reviews volume would not skew positive reviews with such significance as to make the reviews inapplicable.  
+
+Additional analysis that I would recommend, one of which was completed, would be:
+    - Determine what percentage of total 5-star ratings came out of paid reviews. In this case that percentage is *2.19*; leaving almost a full *98%* of 5-star reviews stemming from unpaid reviewers. 
+    ![5star_comp]()
+    - It may also be helpful to run similar analysis on 1-star ratings to understand if there is negative bias. This would better level set the understanding for the stability of reviews derived from the Vine program.
