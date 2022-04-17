@@ -28,6 +28,8 @@ When working with the office products reviews, the data would suggest that there
 The most critical factor in this analysis is the similarity in percentages of 5-star vs total reviews.  One would expect based on the similar percenatages in the two groups, if the incoming data remains stable to this model, an increase in paid reviews volume would not skew positive reviews with such significance as to make the reviews inapplicable.  
 
 Additional analysis that I would recommend, one of which was completed, would be:
->>Determine what percentage of total 5-star ratings came out of paid reviews. In this case that percentage is *2.19*; leaving almost a full *98%* of 5-star reviews stemming from unpaid reviewers.
-    ![5star_comp](https://github.com/RachelRautenberg/Amazon_Vine_Analysis/blob/main/Resources/5star_comp.PNG)
->>It may also be helpful to run similar analysis on 1-star ratings to understand if there is negative bias. This would better level set the understanding for the stability of reviews derived from the Vine program.
+>> 1. Determine what percentage of total 5-star ratings came out of paid reviews. In this case that percentage is *2.19*; leaving almost a full *98%* of 5-star reviews stemming from unpaid reviewers.
+>> 
+>> ![5star_comp](https://github.com/RachelRautenberg/Amazon_Vine_Analysis/blob/main/Resources/5star_comp.PNG)
+>> 
+>>2. It may also be helpful to run similar analysis on 1-star ratings to understand if there is negative bias. This would better level set the understanding for the stability of reviews derived from the Vine program.
