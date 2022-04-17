@@ -21,9 +21,9 @@ Percentage 5-star vs total unpaid:  *43.97%*     Percentage 5-star vs total paid
 
 ## Summary
 When working with the office products reviews, the data would suggest that there is not a positivity bias for reviews in the Vine program. Several things would suggest this:
-    - The total number of reviews coming from the paid program is very small (969) compared to the total of unpaid (43,745).
-    - The total number of 5-star reviews is also small.
-    - The percentage of 5-star vs total reviews in both programs is very close, suggesting that the reviews are of similar proportion in both paid and unpaid.
+   - [x] The total number of reviews coming from the paid program is very small (969) compared to the total of unpaid (43,745).
+   - [x] The total number of 5-star reviews is also small.
+   - [x] The percentage of 5-star vs total reviews in both programs is very close, suggesting that the reviews are of similar proportion in both paid and unpaid.
 
 The most critical factor in this analysis is the similarity in percentages of 5-star vs total reviews.  One would expect based on the similar percenatages in the two groups, if the incoming data remains stable to this model, an increase in paid reviews volume would not skew positive reviews with such significance as to make the reviews inapplicable.  
 
